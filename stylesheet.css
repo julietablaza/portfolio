@@ -18,3 +18,11 @@
 #navlist li:not(#nav-last)::after {
   content: ""
 }
+
+#navlist li a {
+  text-decoration: none;
+}
+
+#navlist li a:hover {
+  cursor: pointer;
+}
