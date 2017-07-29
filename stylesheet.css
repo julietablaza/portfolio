@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+#navlist {
+  padding: 0;
+}
+
+#navlist {
+  display: inline;
+}
+
+#navlist li {
+  display: inline;
+  padding: 0 2vh
+}
+
+#navlist li:not(#nav-last)::after {
+  content: ""
+}
